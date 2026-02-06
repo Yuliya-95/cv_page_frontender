@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CV page</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="assets/avatar.jpg" alt="my photo" class="avatar" />
+      <h1 class="header_title">Yuliya Bo | CV</h1>
+      <h2 class="header_subtitle">Frontend Developer</h3>
+    </header>
+
+    <main>
+      <section class="skills">
+        <h3>Skills</h3>
+
+        <details>
+          <summary>Skills list:</summary>
+
+          <ol>
+            <li>1. HTML</li>
+            <li>2. CSS</li>
+            <li>3. JavaScript</li>
+            <li>4. React</li>
+            <li>5. API</li>
+          </ol>
+        </details>
+      </section>
+
+      <article class="article">
+        <h4>Short article about me</h4>
+
+        <p>
+          Далеко-далеко за словесными горами в стране гласных и согласных живут
+          рыбные тексты. Безопасную использовало оксмокс собрал пояс за ipsum
+          составитель она свою. Заманивший, парадигматическая семантика большой
+          алфавит живет заголовок возвращайся. От всех собрал домах семь
+          повстречался безопасную? Свою злых раз, бросил текстами путь подпоясал
+          инициал, запятой диких пояс, вопрос своих рыбного образ текст.
+        </p>
+      </article>
+
+      <section class="gallery">
+        <h3>Gallery</h3>
+        <img src="https://placehold.co/250x250" alt="placehold image" />
+        <img src="https://placehold.co/250x250" alt="placehold image" />
+        <img src="https://placehold.co/250x250" alt="placehold image" />
+      </section>
+
+      <hr class="separator" />
+
+      <section class="video">
+        <iframe
+          src="https://vk.com/video_ext.php?oid=-125070035&id=456240843&hash=a2c2489780696fca"
+          
+          allowfullscreen="1"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+        ></iframe>
+      </section>
+
+      <section class="hobbies">
+        <h4>My hobbies:</h4>
+
+        <details>
+          <summary>Hobbies</summary>
+
+          <ol>
+            <li>Skiing</li>
+            <li>Video editing</li>
+            <li>Audio books</li>
+          </ol>
+        </details>
+      </section>
+
+      <hr class="separator" />
+
+      <section class="ed">
+        <table class="ed_table">
+          <thead>
+            <tr>
+              <th>School/University</th>
+              <th>Profession</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>IT school 1</td>
+              <td>Angular Dev</td>
+              <td>2019</td>
+            </tr>
+            <tr>
+              <td>IT school 2</td>
+              <td>React Dev</td>
+              <td>2020</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="quote">
+        <blockquote>Действие-это единственный путь к успеху</blockquote>
+      </section>
+
+      <section class="interaction">
+        <form action="https://ya.ru" method="get" class="form" target="_blank">
+          <fieldset>
+            <legend>Required fields:</legend>
+
+            <label for="firstName id">First Name:</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName id"
+              required
+              class="form_control"
+              placeholder="firstname"
+            />
+
+            <label for="lastName id">Last Name:</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName id"
+              required
+              class="form_control"
+              placeholder="lastname"
+            />
+
+            <label for="email-id"> Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email-id"
+              required
+              class="form_control"
+              placeholder="email"
+            />
+          </fieldset>
+
+          <br />
+          <textarea
+            name="questions"
+            cols="30"
+            rows="7"
+            class="form_control control--text"
+            placeholder="your questions"
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <hr class="separator" />
+
+    <footer>
+      <address>
+        <a href="mailto:it@.ru" class="contacts_link">it@mail.ru</a>
+        <br /><br />
+        <a href="tel:+79778657543" class="contacts_link">+79778657543</a>
+      </address>
+    </footer>
+
+    <br />
+    <br />
+    <br />
+  </body>
+</html>
