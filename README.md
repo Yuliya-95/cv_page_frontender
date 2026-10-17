@@ -13,3 +13,5 @@
 [CV page repository](https://github.com/Yuliya-95?tab=repositories)
 
 ![image](assets/avatar.jpg)
+## 🔍 QA Engineering
+* [View Testing Checklist (Чек-лист тестирования)](checklist.md)
