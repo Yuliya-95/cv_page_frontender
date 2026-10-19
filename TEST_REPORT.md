@@ -9,7 +9,7 @@
 
 - [ ] **Test 1:** **FAILED** The page shakes and moves horizontally on mobile initial load. User has to pinch-to-zoom out to make it fit the screen.
 - [ ] **Test 2:** **FAILED** The YouTube video player width is fixed and does not scale down on mobile screens. It forces the whole webpage to stretch horizontally, causing the layout to shake.
-- [ ] **Test 3:** Verify that buttons and text elements (like "Skills" list or "Submit" button) don't overlap text on different screen sizes.
+- [ ] **Test 3:** **PASSED** All text elements, lists, and form fields remain clearly readable and do not overlap or collide on mobile view.
 
 ---
 
