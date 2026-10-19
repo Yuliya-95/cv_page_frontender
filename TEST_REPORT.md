@@ -33,4 +33,4 @@
 
 - [ ] **Test 10:** **PASSED** The phone link is correctly implemented. Clicking it triggers a native browser popup with 'Call / Cancel' options.
 - [ ] **Test 11:** **PASSED** The email link works perfectly. Clicking it instantly redirects the user and opens the default system mail application.
-- [ ] **Test 12:** Negative test: Click on contact links while the network is disconnected (Offline mode).
+- [ ] **Test 12:** **PASSED** The website remains completely stable. Clicking the links correctly opens native applications. The device system handles the offline state by showing standard alerts: 'No network connection / Turn off Airplane mode'.
