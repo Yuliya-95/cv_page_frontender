@@ -24,7 +24,7 @@
 ## 🎬 Block 3: Media Testing (Gallery Images)
 
 - [ ] **Test 7:** **FAILED** The real gallery images are missing/broken. The page currently displays generic grey technical placeholders '250*250' instead of actual project screenshots or photos.
-- [ ] **Test 8:** Verify that the layout of the gallery remains stable and doesn't break upon page refresh.
+- [ ] **Test 8:** **PASSED** (The gallery grid structure is highly stable. Refreshing the webpage multiple times does not cause any layout shifting, flickering, or distortion of the container blocks)..
 - [ ] **Test 9:** Verify if images adapt well to full-screen desktop mode without losing quality or stretching.
 
 ---
