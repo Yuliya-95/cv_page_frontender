@@ -16,6 +16,6 @@
 - [ ] 9. Verify full-screen mode works without breaking the page layout.
 
 ## ✉️ Contact Information Testing
-- [ ]  0. Click on the Phone number to check if it triggers a mobile call application (tel: link).
+- [ ]  10. Click on the Phone number to check if it triggers a mobile call application (tel: link).
 - [ ] 11. Click on the Email link to check if it opens the default email client (mailto: link).
 - [ ] 12. Negative test: Click on contact links while the network is disconnected.
