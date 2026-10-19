@@ -14,6 +14,6 @@
 | **7** | Verify that the video player plays content correctly upon clicking the Play button. | **FAILED** ❌ (Real photos are missing; technical grey 250*250 blocks are shown). | *Awaiting developer fix...* | *Not yet tested* |
 | **8** | Verify that the video player pauses correctly upon clicking the Pause button. | **PASSED** ✅ (The grid structure is stable and doesn't flicker on refresh). | *No fix needed* | **PASSED** ✅ |
 | **9** | Verify full-screen mode works without breaking the page layout. | **PASSED** ✅ (Excellent grid. Items stack vertically on mobile, horizontally on desktop). | *No fix needed* | **PASSED** ✅ |
-| **10** | Phone number link `+79778657543` click | **PASSED** ✅ (Triggers native system popup with 'Call / Cancel' options). | *No fix needed* | **PASSED** ✅ |
+| **10** | Click on the Phone number to check if it triggers a mobile call application (tel: link).| **PASSED** ✅ (Triggers native system popup with 'Call / Cancel' options). | *No fix needed* | **PASSED** ✅ |
 | **11** | Email link `it@mail.ru` click | **PASSED** ✅ (Instantly opens the default system mail application). | *No fix needed* | **PASSED** ✅ |
 | **12** | Contact links click in Offline mode | **PASSED** ✅ (Apps open successfully. OS handles offline with standard alerts). | *No fix needed* | **PASSED** ✅ |
