@@ -7,8 +7,8 @@
 
 ## 📱 Block 1: UI & Layout Testing (Size and Responsiveness)
 
-- [ ] **Test 1:** **FAILED** (The page shakes and moves horizontally on mobile initial load. User has to pinch-to-zoom out to make it fit the screen).
-- [ ] **Test 2:** Verify that the 3 placeholder images container in the Gallery scales correctly on mobile devices and text doesn't cut off.
+- [ ] **Test 1:** **FAILED** The page shakes and moves horizontally on mobile initial load. User has to pinch-to-zoom out to make it fit the screen.
+- [ ] **Test 2:** **FAILED** The YouTube video player width is fixed and does not scale down on mobile screens. It forces the whole webpage to stretch horizontally, causing the layout to shake.
 - [ ] **Test 3:** Verify that buttons and text elements (like "Skills" list or "Submit" button) don't overlap text on different screen sizes.
 
 ---
