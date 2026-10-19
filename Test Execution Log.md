@@ -7,7 +7,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **1** | Check layout responsiveness on mobile screens (Ensure no horizontal scroll appears) | **FAILED** ❌ (The page shakes and moves horizontally on mobile initial load). | *Awaiting developer fix...* | *Not tested yet* |
 | **2** | Verify that the video container scales correctly on mobile devices and doesn't cut off | **FAILED** ❌ (YouTube video player width is fixed and forces the layout to stretch). | *Awaiting developer fix...* | *Not tested yet* |
-| **3** | Buttons & text elements overlap | **PASSED** ✅ (All elements and text remain clearly readable and do not collide). | *No fix needed* | **PASSED** ✅ |
+| **3** | Verify that navigation buttons don't overlap text on different screen sizes | **PASSED** ✅ (All elements and text remain clearly readable and do not collide). | *No fix needed* | **PASSED** ✅ |
 | **4** | Form fields focus behavior | **FAILED** ❌ (Tapping fields causes forceful browser auto-zoom, hiding layout borders). | *Awaiting developer fix...* | *Not tested yet* |
 | **5** | `Submit` button behavior with empty fields | **PASSED** ✅ (Browser 'Please fill out this field' popup works correctly). | *No fix needed* | **PASSED** ✅ |
 | **6** | `Submit` button 10x rapid clicks stress-test | **FAILED** ❌ (Inoperable due to double-tap zoom blocker. Button moves away). | *Awaiting developer fix...* | *Not yet tested* |
