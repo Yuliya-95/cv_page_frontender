@@ -7,7 +7,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | **1** | Check layout responsiveness on mobile screens (Ensure no horizontal scroll appears) | **FAILED** The page shakes and moves horizontally on mobile initial load. User has to pinch-to-zoom out to make it fit the screen. | *Awaiting developer fix...* | *Not tested yet* |
 | **2** | Verify that the video container scales correctly on mobile devices and doesn't cut off | **FAILED** The YouTube video player width is fixed and does not scale down on mobile screens. It forces the whole webpage to stretch horizontally, causing the layout to shake. | *Awaiting developer fix...* | *Not tested yet* |
-| **3** | Verify that navigation buttons don't overlap text on different screen sizes | **PASSED** ✅ (All elements and text remain clearly readable and do not collide). | *No fix needed* | **PASSED** ✅ |
+| **3** | Verify that navigation buttons don't overlap text on different screen sizes | **PASSED** ✅ All text elements, lists, and form fields remain clearly readable and do not overlap or collide on mobile view.). | *No fix needed* | **PASSED** ✅ |
 | **4** | Verify that clicking the "Expand" button smoothly opens the menu. | **FAILED** ❌ (Tapping fields causes forceful browser auto-zoom, hiding layout borders). | *Awaiting developer fix...* | *Not tested yet* |
 | **5** |  Verify that clicking the "Collapse" button closes the menu. | **PASSED** ✅ (Browser 'Please fill out this field' popup works correctly). | *No fix needed* | **PASSED** ✅ |
 | **6** | Stress test: Rapidly click the menu button 10 times to check code stability. | **FAILED** ❌ (Inoperable due to double-tap zoom blocker. Button moves away). | *Awaiting developer fix...* | *Not yet tested* |
