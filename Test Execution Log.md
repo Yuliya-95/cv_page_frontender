@@ -5,7 +5,7 @@
 
 | ID | Test Description (Что тестируем) | Initial Result (Результат сейчас) | Fix Description (Что исправили) | Final Result (Результат после исправления) |
 | :--- | :--- | :--- | :--- | :--- |
-| **1** | Mobile responsiveness & horizontal scroll | **FAILED** ❌ (The page shakes and moves horizontally on mobile initial load). | *Awaiting developer fix...* | *Not tested yet* |
+| **1** | Check layout responsiveness on mobile screens (Ensure no horizontal scroll appears) | **FAILED** ❌ (The page shakes and moves horizontally on mobile initial load). | *Awaiting developer fix...* | *Not tested yet* |
 | **2** | Gallery video container scaling | **FAILED** ❌ (YouTube video player width is fixed and forces the layout to stretch). | *Awaiting developer fix...* | *Not tested yet* |
 | **3** | Buttons & text elements overlap | **PASSED** ✅ (All elements and text remain clearly readable and do not collide). | *No fix needed* | **PASSED** ✅ |
 | **4** | Form fields focus behavior | **FAILED** ❌ (Tapping fields causes forceful browser auto-zoom, hiding layout borders). | *Awaiting developer fix...* | *Not tested yet* |
