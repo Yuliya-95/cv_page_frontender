@@ -17,7 +17,7 @@
 
 - [ ] **Test 4:** **FAILED** On mobile, tapping an input field causes the browser to forcefully auto-zoom. The input rectangle expands beyond the screen edges, hiding the layout borders. This happens because the input font size is likely below 16px.
 - [ ] **Test 5:** **PASSED** The form validation works correctly. Clicking 'Submit' with empty fields triggers a browser validation popup 'Please fill out this field' above the First Name input, preventing empty submission.
-- [ ] **Test 6:****FAILED** Inoperable on mobile due to zoom blocker. After the 2nd rapid tap, the browser triggers 'double-tap to zoom', the entire screen scales up forcefully, and the layout shakes. The button moves away from the user's finger, blocking further testing.
+- [ ] **Test 6:** **FAILED** Inoperable on mobile due to zoom blocker. After the 2nd rapid tap, the browser triggers 'double-tap to zoom', the entire screen scales up forcefully, and the layout shakes. The button moves away from the user's finger, blocking further testing.
 
 ---
 
