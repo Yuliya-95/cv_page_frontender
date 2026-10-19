@@ -10,7 +10,7 @@
 | **3** | Verify that navigation buttons don't overlap text on different screen sizes | **PASSED** ✅ (All elements and text remain clearly readable and do not collide). | *No fix needed* | **PASSED** ✅ |
 | **4** | Verify that clicking the "Expand" button smoothly opens the menu. | **FAILED** ❌ (Tapping fields causes forceful browser auto-zoom, hiding layout borders). | *Awaiting developer fix...* | *Not tested yet* |
 | **5** |  Verify that clicking the "Collapse" button closes the menu. | **PASSED** ✅ (Browser 'Please fill out this field' popup works correctly). | *No fix needed* | **PASSED** ✅ |
-| **6** | `Submit` button 10x rapid clicks stress-test | **FAILED** ❌ (Inoperable due to double-tap zoom blocker. Button moves away). | *Awaiting developer fix...* | *Not yet tested* |
+| **6** | Stress test: Rapidly click the menu button 10 times to check code stability. | **FAILED** ❌ (Inoperable due to double-tap zoom blocker. Button moves away). | *Awaiting developer fix...* | *Not yet tested* |
 | **7** | All 3 gallery placeholder images load | **FAILED** ❌ (Real photos are missing; technical grey 250*250 blocks are shown). | *Awaiting developer fix...* | *Not yet tested* |
 | **8** | Gallery layout stability on refresh | **PASSED** ✅ (The grid structure is stable and doesn't flicker on refresh). | *No fix needed* | **PASSED** ✅ |
 | **9** | Images adaptation to desktop fullscreen | **PASSED** ✅ (Excellent grid. Items stack vertically on mobile, horizontally on desktop). | *No fix needed* | **PASSED** ✅ |
