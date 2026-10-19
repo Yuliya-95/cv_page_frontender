@@ -16,4 +16,4 @@
 | **9** | Verify full-screen mode works without breaking the page layout. | **PASSED** ✅ (Excellent grid. Items stack vertically on mobile, horizontally on desktop). | *No fix needed* | **PASSED** ✅ |
 | **10** | Click on the Phone number to check if it triggers a mobile call application (tel: link).| **PASSED** ✅ (Triggers native system popup with 'Call / Cancel' options). | *No fix needed* | **PASSED** ✅ |
 | **11** |  Click on the Email link to check if it opens the default email client (mailto: link). | **PASSED** ✅ (Instantly opens the default system mail application). | *No fix needed* | **PASSED** ✅ |
-| **12** | Contact links click in Offline mode | **PASSED** ✅ (Apps open successfully. OS handles offline with standard alerts). | *No fix needed* | **PASSED** ✅ |
+| **12** |Negative test: Click on contact links while the network is disconnected. | **PASSED** ✅ (Apps open successfully. OS handles offline with standard alerts). | *No fix needed* | **PASSED** ✅ |
