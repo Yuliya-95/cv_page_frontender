@@ -15,7 +15,7 @@
 
 ## 🎛️ Block 2: Functional Testing (Menu & Buttons)
 
-- [ ] **Test 4:** Verify that the form fields receive focus smoothly when clicked.
+- [ ] **Test 4:** **FAILED** On mobile, tapping an input field causes the browser to forcefully auto-zoom. The input rectangle expands beyond the screen edges, hiding the layout borders. This happens because the input font size is likely below 16px.
 - [ ] **Test 5:** Verify the behavior of the `Submit` button when clicked.
 - [ ] **Test 6:** Stress test: Rapidly click the `Submit` button 10 times to check code and page stability.
 
