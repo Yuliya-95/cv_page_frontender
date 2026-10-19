@@ -31,6 +31,6 @@
 
 ## ✉️ Block 4: Contact Information Testing
 
-- [ ] **Test 10:** Click on the Phone number `+79778657543` to check if it triggers a mobile call application (`tel:` link).
-- [ ] **Test 11:** Click on the Email link `it@mail.ru` to check if it opens the default email client (`mailto:` link).
+- [ ] **Test 10:** **PASSED** The phone link is correctly implemented. Clicking it triggers a native browser popup with 'Call / Cancel' options.
+- [ ] **Test 11:** **PASSED** The email link works perfectly. Clicking it instantly redirects the user and opens the default system mail application.
 - [ ] **Test 12:** Negative test: Click on contact links while the network is disconnected (Offline mode).
