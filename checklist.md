@@ -4,4 +4,4 @@
 **Status:** In progress 
 
 | ID | Test Description | Initial Result | Fix Description | Final Result |
-| :--- | :--- | :--- | :--- | | :--- |
+| :--- | :--- | :--- | :--- | :--- |
