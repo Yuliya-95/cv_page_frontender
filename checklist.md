@@ -1,4 +1,4 @@
-# Integrated QA Test Log & Tracker : CV Page
+# Integrated QA Test Log & Bug Tracker : CV Page
 
 **QA Lead:** Yuliya  
 **Status:** In progress 
